@@ -2,9 +2,8 @@ require "mixlib/platform/version"
 
 module Mixlib
   class Platform
-
     def detect
-   	end
+    end
 
     def found?
     end
