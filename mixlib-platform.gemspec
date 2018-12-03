@@ -6,10 +6,10 @@ require "mixlib/platform/version"
 Gem::Specification.new do |spec|
   spec.name          = "mixlib-platform"
   spec.version       = Mixlib::Platform::VERSION
-  spec.authors       = ["Patrick Wright"]
-  spec.email         = ["patrick@chef.io"]
+  spec.authors       = ["Tim Smith"]
+  spec.email         = ["tsmith@chef.io"]
 
-  spec.summary       = "mixlib-platform prototype"
+  spec.summary       = "A mixin for detecting the platform of a system"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
