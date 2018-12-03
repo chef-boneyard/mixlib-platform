@@ -1,8 +1,7 @@
 # Mixlib::Platform
+[![Build Status Master](https://travis-ci.org/chef/mixlib-platform.svg?branch=master)](https://travis-ci.org/chef/mixlib-platform)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/mixlib/platform`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A mixin for detecting the platform of a system
 
 ## Installation
 
@@ -32,4 +31,23 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/mixlib-platform.
+For information on contributing to this project see <https://github.com/chef/chef/blob/master/CONTRIBUTING.md>
+
+## License
+
+- Copyright:: Copyright (c) 2018 Chef Software, Inc.
+- License:: Apache License, Version 2.0
+
+```text
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
